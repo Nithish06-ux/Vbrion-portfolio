@@ -1,0 +1,122 @@
+[
+  {
+    "id": "case-fintech-fraud-mesh",
+    "title": "Real-Time Neural Fraud Telemetry Mesh",
+    "category": "fintech",
+    "industryTag": "Fintech & Digital Payments",
+    "outcome": "Reduced sub-second transaction fraud losses by 74% with under 15ms inference latency.",
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+    "accentColor": "#00D4FF",
+    "badgeText": "[PLACEHOLDER CASE STUDY #1]",
+    "summary": "[PLACEHOLDER] Architected an enterprise-scale streaming inference pipeline processing 25,000 TPS across distributed digital payment gateways.",
+    "challenge": "[PLACEHOLDER SAMPLE CONTENT] The client faced a spike in coordinated synthetic identity attacks across multi-currency micro-transactions, causing significant loss reserves and high false-positive decline rates for genuine users.",
+    "approach": "[PLACEHOLDER SAMPLE CONTENT] We embedded a graph neural network alongside streaming event telemetry in Apache Kafka, scoring transactions against historical behavioural profiles in real-time.",
+    "solution": "[PLACEHOLDER SAMPLE CONTENT] Deployed a low-latency Go microservice layer integrated with PyTorch TensorRT models on Kubernetes, orchestrated with automated fallback circuits.",
+    "results": [
+      { "metric": "74%", "label": "Reduction in Fraud Loss Reserves" },
+      { "metric": "<15ms", "label": "P99 Detection Latency" },
+      { "metric": "61%", "label": "Drop in False-Positive Declines" }
+    ],
+    "techUsed": ["PyTorch", "Kafka", "Go", "Kubernetes", "Redis", "BigQuery"]
+  },
+  {
+    "id": "case-healthcare-pathway",
+    "title": "Clinical Pathway & Predictive Triage Intelligence",
+    "category": "healthcare",
+    "industryTag": "Healthcare & Life Sciences",
+    "outcome": "Cut emergency department readmissions by 32% via automated risk trajectory forecasting.",
+    "thumbnail": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
+    "accentColor": "#1AA3E0",
+    "badgeText": "[PLACEHOLDER CASE STUDY #2]",
+    "summary": "[PLACEHOLDER] Delivered an EHR-integrated predictive lakehouse providing clinicians with early deterioration warning scores 6 hours prior to acute onset.",
+    "challenge": "[PLACEHOLDER SAMPLE CONTENT] Tertiary medical networks suffered from siloed clinical histories, fragmented ICU beds, and reactive readmission management that strained hospital capacity.",
+    "approach": "[PLACEHOLDER SAMPLE CONTENT] Standardized multi-source clinical telemetry into a FHIR-compliant Databricks lakehouse, training interpretable gradient-boosted models calibrated for critical care clinicians.",
+    "solution": "[PLACEHOLDER SAMPLE CONTENT] Integrated real-time bedside clinical dashboards that flag patient decompensation indicators directly into ward staff workflow terminals with full HIPAA/GDPR governance.",
+    "results": [
+      { "metric": "32%", "label": "Decline in Unplanned Readmissions" },
+      { "metric": "6 hrs", "label": "Average Advance Warning Window" },
+      { "metric": "99.4%", "label": "Model Interpretability & Audit Score" }
+    ],
+    "techUsed": ["Databricks", "FHIR", "Python", "XGBoost", "React", "AWS HealthLake"]
+  },
+  {
+    "id": "case-banking-liquidity-stress",
+    "title": "Dynamic Basel Liquidity & Capital Stress Platform",
+    "category": "banking",
+    "industryTag": "Banking & Financial Institutions",
+    "outcome": "Automated multi-scenario capital adequacy simulations from 72 hours down to 14 minutes.",
+    "thumbnail": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80",
+    "accentColor": "#00D4FF",
+    "badgeText": "[PLACEHOLDER CASE STUDY #3]",
+    "summary": "[PLACEHOLDER] Modernized legacy quarterly capital risk computation into an on-demand Monte Carlo simulation engine for tier-1 regional banking executives.",
+    "challenge": "[PLACEHOLDER SAMPLE CONTENT] Regulatory reporting cycles required manual aggregation across 14 fragmented relational databases, hindering agility in shifting interest rate environments.",
+    "approach": "[PLACEHOLDER SAMPLE CONTENT] Designed an automated vectorised calculation grid using Snowflake and Apache Spark, simulating 10,000 macro-economic stress scenarios simultaneously.",
+    "solution": "[PLACEHOLDER SAMPLE CONTENT] Built an executive command dashboard for treasury directors with interactive drill-down into asset-liability buckets and automated regulatory export.",
+    "results": [
+      { "metric": "99.7%", "label": "Runtime Compression (72h to 14m)" },
+      { "metric": "10,000+", "label": "Concurrent Scenario Stress Runs" },
+      { "metric": "Zero", "label": "Audit Exceptions on Basel Filing" }
+    ],
+    "techUsed": ["Snowflake", "Apache Spark", "Python", "Power BI", "FastAPI", "Azure"]
+  },
+  {
+    "id": "case-consulting-risk-governance",
+    "title": "Enterprise Cross-Border Governance & Statutory Shield",
+    "category": "consulting",
+    "industryTag": "Risk, Legal & Corporate Governance",
+    "outcome": "Consolidated statutory compliance across 5 APAC jurisdictions with 100% audit pass rate.",
+    "thumbnail": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
+    "accentColor": "#1AA3E0",
+    "badgeText": "[PLACEHOLDER CASE STUDY #4]",
+    "summary": "[PLACEHOLDER] Comprehensive corporate governance overhaul transforming static paper audits into a continuous digital risk observatory for a multinational conglomerate.",
+    "challenge": "[PLACEHOLDER SAMPLE CONTENT] Disjointed compliance records and rapid regulatory updates across Southeast Asian and Indian jurisdictions led to recurrent statutory notice risks.",
+    "approach": "[PLACEHOLDER SAMPLE CONTENT] Conducted an end-to-end statutory mapping exercise, instituted a central control library, and built an automated regulatory change radar.",
+    "solution": "[PLACEHOLDER SAMPLE CONTENT] Rolled out a board-level oversight cockpit with automated SLA triggers, escalations, and digital evidence vaulting.",
+    "results": [
+      { "metric": "100%", "label": "Statutory Audit Pass Rate" },
+      { "metric": "85%", "label": "Reduction in Manual Reporting Hours" },
+      { "metric": "5 Jurisdictions", "label": "Unified Under One Policy Engine" }
+    ],
+    "techUsed": ["Governance Matrix", "Regulatory Radar", "Node.js", "PostgreSQL", "Docker"]
+  },
+  {
+    "id": "case-education-telemetry",
+    "title": "Adaptive Learning Telemetry & Retention Forecaster",
+    "category": "education",
+    "industryTag": "Higher Education & EdTech",
+    "outcome": "Increased course completion rates by 41% through early student engagement intervention.",
+    "thumbnail": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80",
+    "accentColor": "#00D4FF",
+    "badgeText": "[PLACEHOLDER CASE STUDY #5]",
+    "summary": "[PLACEHOLDER] Deployed an ML student retention engine tracking digital learning patterns, quiz latency, and drop-off risks across 80,000 enrolled students.",
+    "challenge": "[PLACEHOLDER SAMPLE CONTENT] High early-stage dropout rates in hybrid degree programs went undetected until midterm evaluations, when corrective counseling was already too late.",
+    "approach": "[PLACEHOLDER SAMPLE CONTENT] Synthesized LMS clickstream telemetry, submission cadence, and forum sentiment to generate individualized engagement health scores.",
+    "solution": "[PLACEHOLDER SAMPLE CONTENT] Created an automated academic mentor intervention feed that alerts advisors whenever a student deviates from their trajectory.",
+    "results": [
+      { "metric": "+41%", "label": "Overall Completion Rate" },
+      { "metric": "3.4 Weeks", "label": "Earlier Identification of At-Risk Students" },
+      { "metric": "91%", "label": "Advisor Recommendation Adoption" }
+    ],
+    "techUsed": ["Clickstream ETL", "Scikit-Learn", "Node.js", "React", "MongoDB", "Tailwind CSS"]
+  },
+  {
+    "id": "case-bizdev-revenue-intent",
+    "title": "Algorithmic B2B Account Intent & Pipeline Accelerator",
+    "category": "business-development",
+    "industryTag": "Business Development & Enterprise Growth",
+    "outcome": "Elevated qualified sales pipeline value by 2.4x using predictive intent scoring models.",
+    "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    "accentColor": "#1AA3E0",
+    "badgeText": "[PLACEHOLDER CASE STUDY #6]",
+    "summary": "[PLACEHOLDER] Engineered a forward-looking revenue intelligence system synthesizing firmographics, web traffic signals, and executive hiring data.",
+    "challenge": "[PLACEHOLDER SAMPLE CONTENT] Enterprise business development reps spent 60% of their time cold-outreaching unqualified accounts with low propensities to buy.",
+    "approach": "[PLACEHOLDER SAMPLE CONTENT] Aggregated public firmographic databases, hiring signals, and intent keywords into a machine learning scoring pipeline updated daily.",
+    "solution": "[PLACEHOLDER SAMPLE CONTENT] Automated custom territory routing and dynamic account prioritization directly into the enterprise CRM, equipping reps with hyper-tailored outreach dossiers.",
+    "results": [
+      { "metric": "2.4x", "label": "Increase in Qualified Enterprise Pipeline" },
+      { "metric": "48%", "label": "Shortening of Average Sales Cycle" },
+      { "metric": "3.8x", "label": "Higher Outbound Meeting Conversion" }
+    ],
+    "techUsed": ["Python", "FastAPI", "CRM Sync", "Elasticsearch", "React", "GCP"]
+  }
+]
